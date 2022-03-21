@@ -1,16 +1,15 @@
 mkdir -p ~/.streamlit/
-echo "
-[general]n
-email = "maximilien@tutanota.de"n
-" > ~/.streamlit/credentials.toml
-echo "
-[server]n
-headless = truen
-enableCORS=falsen
-port = $PORTn
+echo "\
+[server]\n\
+headless = true\n\
+port = $PORT\n\
+enableCORS = false\n\
+\n\
+[theme]\n\
+base = 'light'\n\
+\n\
+backgroundColor = '#f1e4e4'\n\
+\n\
+font='serif'\n\
+\n\
 " > ~/.streamlit/config.toml
-[theme]
-base="light"
-backgroundColor="#f1e4e4"
-font="serif"
-
