@@ -263,7 +263,7 @@ if __name__ == '__main__':
 	st.sidebar.markdown("Email: maximilien@tutanota.de")
 	st.sidebar.markdown("Element ID: @maximilien:matrix.org")
 	if page == "Upload csv file":
-		st.subheader('Please download the dataset on my blog using this [Link](https://kpizmax.hashnode.dev)')
+		st.subheader('Please download the dataset [here](https://drive.google.com/drive/folders/1o8wlCp_KZ_-rh0SiruaWsyvh5M-GNBDq?usp=sharing)')
 		shopify_file = st.file_uploader('Select Your Local shopify  train_csv (default provided)')
 		if shopify_file is not None:
         		shopify_df = pd.read_csv(shopify_file)
