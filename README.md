@@ -10,7 +10,7 @@ Data source: Standard Shopify Data. Shopify is a subscription-based software tha
 
 Objective: Build models that provide marketing insights
  
-Link to test the application deployed on hereko: https://marketing-analytics-ml.herokuapp.com
+Link to test the application deployed on hereko: https://flexil-marketing-analytics-ml-app-sgted5.streamlit.app/
 
 Link to the blog post: https://kpizmax.hashnode.dev/end-to-end-company-predictive-marketing-using-rfm-recency-frequency-monetary-behavioral-based-clustering-algorithmpart-1
 
